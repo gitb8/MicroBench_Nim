@@ -1,7 +1,7 @@
 import times
 
 # set run repetitions:
-const RUNS = 65536
+const RUNS: int = 65536
 
 var start: Time = getTime()
 var ende: Time = getTime()
