@@ -1,7 +1,7 @@
 import times
 
 # set run repetitions:
-const RUNS: int = 65536
+const RUNS: int64 = 65536
 
 var start: Time = getTime()
 var ende: Time = getTime()
@@ -10,7 +10,7 @@ var second: float32
 
 # add variables for bench:
 
-var a = 0
+var a: int64 = 0
 
 
 # add functoins for bench:
